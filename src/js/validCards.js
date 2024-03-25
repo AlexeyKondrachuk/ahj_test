@@ -1,5 +1,5 @@
 export default function validCards(value) {
-    if (/^4\d{12}(?:\d{3})/.test(value)) {
+ if (/^4\d{12}(?:\d{3})/.test(value)) {
       return ".visa";
     } else if (/(^5[1-5])\d{14}/.test(value)) {
       return ".master";

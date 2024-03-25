@@ -16,7 +16,8 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "prettier/prettier": ["error", {"singleQuote": false}]
   },
   "overrides": [
     {
@@ -31,7 +32,7 @@
       ],
       "rules": {
         "jest/prefer-expect-assertions": "off",
-        "prettier/prettier": ["error", {"singleQuote": false}]
+        
       }
     }
   ]

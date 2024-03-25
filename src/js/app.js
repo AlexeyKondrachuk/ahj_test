@@ -25,4 +25,5 @@ if (typeof document !== "undefined") {
       : (result.textContent = "Номер карты некорректен!");
     document.getElementById("card_number").value = " ";
   });
+  
 }
