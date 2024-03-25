@@ -18,7 +18,7 @@
   "rules": {
     "no-unused-vars": "warn",
     "indent": ["error", "tab"],
-    "prettier/prettier": ["error", {"singleQuote": false}]
+    "prettier/prettier": ["error", {"singleQuote": false}]                     
   },
   "overrides": [
     {

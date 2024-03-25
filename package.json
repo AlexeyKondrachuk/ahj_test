@@ -47,7 +47,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "core-js": "^3.27.0"
+    "core-js": "^3.27.0",
+    "lint": "^0.8.19"
   },
   "repository": "git@github.com:AlexeyKondrachuk/ahj_test.git"
 }

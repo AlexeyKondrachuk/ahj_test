@@ -3,13 +3,12 @@ import validCards from "./validCards";
 import validate from "./validators";
 
 if (typeof document !== "undefined") {
-  const input = document.querySelector(".form-control");
-
-  input.addEventListener("input", () => {
-    const type = validCards(input.value);
-    const cards = document.querySelectorAll(".card");
-    cards.forEach((item) => {
-      item.classList.remove("active");
+	const input = document.querySelector(".form-control");
+	input.addEventListener("input", () => {
+		const type = validCards(input.value);
+		const cards = document.querySelectorAll(".card");
+		cards.forEach((item) => {
+			item.classList.remove("active");
     });
     if (type) {
       document.querySelector(type).classList.add("active");
@@ -25,5 +24,4 @@ if (typeof document !== "undefined") {
       : (result.textContent = "Номер карты некорректен!");
     document.getElementById("card_number").value = " ";
   });
-  
 }
