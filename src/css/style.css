@@ -110,13 +110,13 @@ h2 {
     padding: 10px 10px;
     height: 100%;
     font-size: 20px;
-    background-color: rgb(192, 243, 194);
-    color: black;
+    background-color: #5cb85c;
+    color: rgb(255, 255, 255);
     margin-left: 10px;
 }
 
 .btn:hover {
-    background-color: rgb(27, 132, 32);
+    background-color: #449d44;
 }
 
 .filter-container {
