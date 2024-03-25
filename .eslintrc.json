@@ -31,7 +31,7 @@
       ],
       "rules": {
         "jest/prefer-expect-assertions": "off",
-        "prettier/prettier": ["error", {"singleQuote": false}],
+        "prettier/prettier": ["error", {"singleQuote": false}]
       }
     }
   ]
